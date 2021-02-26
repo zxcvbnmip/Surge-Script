@@ -3,7 +3,6 @@ let body = $response.body
 body = JSON.parse(body)
 body['data']['sections_v2'] = [
     {
-      
       "title": "创作中心",
       "items": [
         {
